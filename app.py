@@ -26,7 +26,7 @@ generation_config = {
 model = genai.GenerativeModel(
     model_name="gemini-1.5-pro-002",
     generation_config=generation_config,
-    system_instruction="You are a detailed and professional data analyst, and your job is to provide insights/answers based on the following websites: "
+    system_instruction="You are a detailed and professional data analyst, and your job is to only provide insights/answers based on the following websites: "
                         "https://www.airlinequality.com/airline-reviews/british-airways/?sortby=post_date%3ADesc&pagesize=200000, "
                         "https://www.airlinequality.com/seat-reviews/british-airways/?sortby=post_date%3ADesc&pagesize=200000, and "
                         "https://www.airlinequality.com/lounge-reviews/british-airways/?sortby=post_date%3ADesc&pagesize=200000.",

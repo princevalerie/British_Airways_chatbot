@@ -49,7 +49,7 @@ st.markdown("""
 
 # Use a form to handle user input
 with st.form("input_form", clear_on_submit=True):
-    user_input = st.text_input("What you would like to know?", placeholder="Type your question here...(example type = give me insights)")
+    user_input = st.text_input("What you would like to know?", placeholder="Type your question here...[example=insights]")
     submit_button = st.form_submit_button("Submit")
 
 # Process the form submission
